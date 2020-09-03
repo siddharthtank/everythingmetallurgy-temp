@@ -155,7 +155,7 @@ a{
     height: 45px;
     width: 45px;
     display: inline-block;
-    border: 3px solid #002347;
+    /* border: 3px solid #002347; */
     border-radius: 50%;
     position: relative;
     display: flex;
@@ -167,8 +167,8 @@ a{
 }
 
 #header .hamburger .bar{
-    height: 2px;
-    width: 20px;
+    height: 3px;
+    width: 30px;
     position: relative;
     background-color: #002347;
     z-index: -1;
@@ -194,10 +194,10 @@ a{
 }
 
 #header .hamburger.active{
-    border: 3px solid white;
+    /* border: 3px solid white; */
 }
 #header .hamburger.active .bar{
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
 #header .hamburger.active .bar::before{
@@ -305,16 +305,16 @@ a{
 
 @media (max-width:576px) {
     #hero .hero{
-        top: -10vh;
+        top: -15vh;
     }
     #hero h1{
-        font-size: 2.4rem;
+        font-size: 2.6rem;
     }
     #hero p{
         font-size: 1.6rem;
     }
     #hero img{
-        max-height: 60px;
+        max-height: 70px;
     }
     #hero .cta{
         padding: 10px 15px;
@@ -744,17 +744,19 @@ box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
     }
 
     #contact .download p{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     #contact img{
         max-height: 35px;
     }
     #contact h4{
         font-size: 1.2rem;
+        padding-left: 5px;
     }
     
     #contact p{
         font-size: 1.4rem;
+        padding-left: 5px;
     }
 }
 
