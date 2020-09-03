@@ -456,6 +456,7 @@ a{
     position: relative;
     background: #d6eaff;
     padding: 40px 36px;
+    border-radius: 5px;
     margin-bottom: 30px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -593,6 +594,7 @@ a{
     border: none;
     color: #002347;
     cursor: pointer;
+    border-radius: 5px;
     padding: 18px;
     width: 100%;
     text-align: left;
@@ -657,6 +659,7 @@ box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
     grid-template-columns: 1fr 4fr;
     padding: 10px 36px;
     background: #d6eaff;
+    border-radius: 5px;
 }
 
 #contact .single_feature:hover{
