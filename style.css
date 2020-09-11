@@ -15,6 +15,10 @@ html{
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
     scroll-behavior: smooth;
+    background:linear-gradient(0deg, rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.95)), url(images/hex.jpg);
+    background-size: contain;
+    background-position: top center;
+    z-index: 1;
 }
 
 a{
@@ -105,10 +109,10 @@ a{
     transition: 0.3s ease letter-spacing;
 }
 
-#header .nav-list ul li:nth-child(6) a{
+#header .nav-list ul li:nth-child(7) a{
     color: white;
 }
-#header .nav-list ul li:nth-child(7) a{
+#header .nav-list ul li:nth-child(8) a{
     color: white;
 }
 
@@ -408,12 +412,6 @@ a{
 
 
 /* -------------------------------- Services -------------------------------- */
-#services{
-    background:linear-gradient(0deg, rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.95)), url(images/hex.jpg);
-    background-size: cover;
-    background-position: top center;
-    z-index: 1;
-}
 .container2{
     width: 100%;
     padding-right: 15px;
@@ -575,10 +573,6 @@ a{
 /* -------------------------------- Services -------------------------------- */
 
 /* -------------------------------- FAQs -------------------------------- */
-#faqs{
-    background-color: white;
-}
-
 
 #faqs .row2{
     margin: 0 0 100px;
@@ -648,13 +642,6 @@ box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 /* -------------------------------- About Us -------------------------------- */
 
 /* --------------------------------- Contact -------------------------------- */
-#contact{
-    background:linear-gradient(0deg, rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)), url(images/hex.jpg);
-    background-size: cover;
-    background-position: top center;
-    z-index: 1;
-}
-
 #contact .single_feature{
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -820,12 +807,12 @@ box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
         color: #002347;
     }
 
-    #header .nav-list ul li:nth-child(6) a{
+    #header .nav-list ul li:nth-child(7) a{
         margin-right: 0;
         margin-left: 20px;
     }
     
-    #header .nav-list ul li:nth-child(7) a{
+    #header .nav-list ul li:nth-child(8) a{
         margin-right: 20px;
         margin-left: 5px;
     }
@@ -879,10 +866,10 @@ box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 #test-series{
-    background:linear-gradient(0deg, rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.95)), url(images/hex.jpg);
+    /* background:linear-gradient(0deg, rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.95)), url(images/hex.jpg);
     background-size: contain;
     background-position: top center;
-    z-index: 1;
+    z-index: 1; */
 }
 
 
